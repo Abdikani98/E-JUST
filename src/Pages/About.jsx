@@ -8,7 +8,7 @@ const About = () => {
 
     return <div>
         <Header />
-    <div className="pt-36">
+    <div className="sm:pt-36 pt-52">
     <div className="bg-gradient-to-r from-primaryColor to-secondaryColor p-8 rounded-lg shadow-lg text-white text-center max-w-md mx-auto transform transition duration-300 hover:scale-105 hover:shadow-xl">
           <img src={img} alt="Profile" className="w-36 h-36 ml-28 rounded-full border-4 border-white mb-4 shadow-lg transform transition duration-300 hover:scale-110"/>
           <h1 className="text-2xl uppercase font-bold tracking-wide">

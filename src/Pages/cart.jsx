@@ -28,7 +28,7 @@ function Cart() {
             cartItems.length > 0 ?
             cartItems.map((item, index) =>{
                 return <div className="pt-40 flex justify-center">
-                <div className="p-5 flex justify-between items-center w-[80%] shadow-lg rounded-2xl">
+                <div className="p-5 sm:flex justify-between items-center w-[80%] shadow-lg rounded-2xl">
                     <img src={item.image} className="h-40 w-80 object-contain mb-4" />
                     <h2 className="text-3xl font-semibold mb-2">{item.title}</h2>
                     <p className="text-gray-600 text-2xl">${item.price}</p>

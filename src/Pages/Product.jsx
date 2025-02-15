@@ -36,12 +36,12 @@ const Products = () => {
             <Header />
          <div className="pt-20">
             <div className="container mx-auto p-6">
-                <div className="flex justify-around mb-5">
+                <div className="sm:flex justify-around mb-5">
                     <h1 className="text-3xl font-bold text-center mb-6">Products</h1>
-                    <input value={search} onChange={(e) => setSearch(e.target.value)} className="border-4 rounded-2xl outline-none text-2xl border-secondaryColor pl-2 w-60 h-10 ml-80" type="search" placeholder="Search product ..." />
+                    <input value={search} onChange={(e) => setSearch(e.target.value)} className="border-4 rounded-2xl outline-none text-2xl border-secondaryColor pl-2 w-60 h-10 sm:ml-80 ml-14" type="search" placeholder="Search product ..." />
                 </div>
 
-                <div className="grid grid-cols-3 gap-28 px-20">
+                <div className="sm:grid grid-cols-3 gap-28 sm:px-20 px-10 ">
                     {
                         Productsearch.map((item) => {
                             return <ProductDisplay product={item} />
